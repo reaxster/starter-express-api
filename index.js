@@ -16,7 +16,7 @@ const hostname = "mta-sts.hospitality-ut.com"
 
 app.all('/', (req, res) => {
     console.log("Just got a request!")
-    res.send('Yo!')
+    res.send("Page is a parked domain for MTA ONLY!")
 })
 
 app.get('/.well-known/mta-sts.txt', (req, res) => {
